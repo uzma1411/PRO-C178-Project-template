@@ -10,22 +10,13 @@ var map = new mapboxgl.Map({
 	zoom: 4
 });
 
-map.addControl(
-	new MapboxGeocoder({
-		accessToken: mapboxgl.accessToken,
-		mapboxgl: mapboxgl
-	})
-);
+//Add Mapbox Geocoder
 
 
 var img1 = document.querySelector("#amber")
 
 // Create a Amber Palace, Jaipur Marker and add it to the map.
-var marker1 = new mapboxgl.Marker({
-	element: img1
-})
-	.setLngLat([75.85133, 26.98547])
-	.addTo(map);
+
 
 var img2 = document.querySelector("#gateway")
 // Create a  Gateway of India, Mumbai Marker and add it to the map.
