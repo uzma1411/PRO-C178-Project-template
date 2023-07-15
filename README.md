@@ -1,1 +1,1 @@
-# PRO-C178-Project-Solution
+# PRO-C178-Project-Template
